@@ -1,6 +1,6 @@
 # react-pagebox
 
-![react-pagebox.png](react-pagebox)
+![](react-pagebox.png)
 
 ## License
 MIT
