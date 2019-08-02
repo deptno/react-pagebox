@@ -1,0 +1,44 @@
+{
+  "name": "react-pagebox",
+  "version": "0.0.0",
+  "description": "react context base paginator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deptno/react-pagebox.git"
+  },
+  "keywords": [
+    "react",
+    "pagination",
+    "paginator",
+    "pagebox"
+  ],
+  "author": "Bonggyun Lee <deptno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deptno/react-script-fall/issues"
+  },
+  "homepage": "https://github.com/deptno/react-script-fall#readme",
+  "peerDependencies": {
+    "react": "^16.8",
+    "react-dom": "^16.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "rollup": "^1.18.0",
+    "rollup-plugin-typescript2": "^0.21.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "headless-paginator": "^2.0.1"
+  }
+}
